@@ -37,5 +37,5 @@ class TellonymBot():
         self.driver.close()
 
 questions = QuestionsScraper().questions()
-url = # INSERT ULR HERE
+url = # INSERT PROFILE URL HERE
 TellonymBot().askQuestions(url, questions)
