@@ -37,5 +37,5 @@ class TellonymBot():
         self.driver.close()
 
 questions = QuestionsScraper().questions()
-url = 'https://tellonym.me/Jordanngohhh'
+url = # INSERT ULR HERE
 TellonymBot().askQuestions(url, questions)
